@@ -14,7 +14,7 @@ import { nanoid } from "nanoid/non-secure";
 const MAIN_SCRIPT_ID = "recaptcha";
 
 /** Source of the main reCAPTCHA script. */
-const MAIN_SCRIPT_SRC = "https://www.google.com/recaptcha/api.js";
+const MAIN_SCRIPT_SRC = "https://www.recaptcha.net/recaptcha/api.js";
 
 /**
  * Pattern of the second, implicit reCAPTCHA script.

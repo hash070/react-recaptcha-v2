@@ -1,5 +1,5 @@
 {
-  "name": "@matt-block/react-recaptcha-v2",
+  "name": "@hash070/react-recaptcha-v2",
   "version": "2.2.0",
   "description": "Google reCAPTCHA v2 React component that does not pollute the DOM",
   "main": "lib/index.esm.js",
@@ -9,6 +9,9 @@
     "README.md",
     "LICENSE"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "react",
     "recaptcha",

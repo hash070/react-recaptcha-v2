@@ -4,7 +4,7 @@
 ![license: mit][license_shield] [![code style: prettier][prettier_shield]][prettier]
 
 React wrapper component for Google's [reCAPTCHA v2][recaptcha_site] service,
-built with [TypeScript][typescript] and [Rollup][rollup].
+built with [TypeScript][typescript] and [Rollup][rollup], forked from [matei-radu/react-recaptcha-v2](https://github.com/matei-radu/react-recaptcha-v2).
 
 ### Features
 
@@ -12,6 +12,7 @@ built with [TypeScript][typescript] and [Rollup][rollup].
 - Can safely add multiple `<ReCaptcha>` components in the same page, they
   will not conflict with each other.
 - TypeScript and Flow type declarations
+- Use `www.recaptcha.net` to support global users.
 
 ### DOM Pollution and Cleanup
 
